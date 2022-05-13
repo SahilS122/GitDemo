@@ -21,7 +21,7 @@ public class TestClass {
 		driver.findElement(By.cssSelector("input#checkBoxOption1")).click();
 		Thread.sleep(2000);
 		System.out.println(driver.findElement(By.cssSelector("input#checkBoxOption1")).isSelected());
-
+		System.out.println("new changes");
 		driver.close();
 
 	}

@@ -6,6 +6,7 @@ public class newClass {
 	}
 
 	public static int romanToInt(String s) {
+		System.out.println("new changes");
 		int intValue = 0;
 		char[] ch = s.toCharArray();
 		int charIndex;
